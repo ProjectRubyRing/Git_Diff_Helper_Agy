@@ -2108,7 +2108,7 @@ EOS
     MAN_Z=$((MAN_ROW % 2)); man_row "" label "$a" code "$b" plain "$c" plain "$d"
   done <<'EOS'
 ヘルプ表示|./git-diff-helper.sh --help|書式とオプション一覧が表示される|どこで実行しても構いません。
-モード一覧|./git-diff-helper.sh -l|8 モードの一覧が表示される|同上
+モード一覧|./git-diff-helper.sh -l|9 モードの一覧が表示される|同上
 実際の差分|./git-diff-helper.sh -m head|画面表示のあと出力ファイルの一覧が表示される|git リポジトリの中で実行してください。
 利用ガイド|./git-diff-helper.sh --manual-only|本ガイドの xlsx が生成される|git リポジトリの外でも実行できます。
 EOS
